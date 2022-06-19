@@ -9,7 +9,7 @@ import (
 	"time"
 )
 
-const SWD = "C:/Users/Andrey/Documents/Projects/OOP_course_work_modules/receiver/"
+const SWD = "../OOP_course_work_modules/receiver/" // standard receiver modules directory
 
 func createFlaskProcess(id string, port string) {
 	cmd := exec.Command("./venv/Scripts/flask.exe", "run", "-p", port)
